@@ -25,7 +25,7 @@ a:focus,a:hover{text-decoration:none;color:#1d9b6c}
 .navbar-custom .nav li.active a:hover{color:#fff}
 @media (min-width:768px){.navbar-custom{padding:20px 0;border-bottom:none;letter-spacing:1px;background:0 0;-webkit-transition:background .5s ease-in-out,padding .5s ease-in-out;-moz-transition:background .5s ease-in-out,padding .5s ease-in-out;transition:background .5s ease-in-out,padding .5s ease-in-out}
 .navbar-custom.top-nav-collapse{padding:0;background:#000;border-bottom:1px solid rgba(255,255,255,.3)}}
-.intro{display:table;height:auto;padding:100px 0;text-align:center;color:#fff;background:url(../img/intro-bg.jpg) bottom center no-repeat #000;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}
+.intro{display:table;height:auto;padding:100px 0;text-align:center;color:#fff;background:url(http://eoimages.gsfc.nasa.gov/images/imagerecords/55000/55167/earth_lights.gif) bottom center no-repeat #000;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}
 .intro .intro-body{display:table-cell;vertical-align:middle}
 .intro .intro-body .brand-heading{font-size:40px}
 .intro .intro-body .intro-text{font-size:18px}
@@ -39,12 +39,15 @@ a:focus,a:hover{text-decoration:none;color:#1d9b6c}
 @-webkit-keyframes pulse{0%,100%{-webkit-transform:scale(1);transform:scale(1)}50%{-webkit-transform:scale(1.2);transform:scale(1.2)}}
 @-moz-keyframes pulse{0%,100%{-moz-transform:scale(1);transform:scale(1)}50%{-moz-transform:scale(1.2);transform:scale(1.2)}}
 .content-section{padding-top:100px}
-.project-section{width:100%;padding:50px 0;color:#fff;background:url(../img/downloads-bg.jpg) center center no-repeat #000;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}
+.project-section{width:100%;padding:50px 0;color:#fff;background:url(http://xinature.com/wp-content/uploads/2016/10/oceans-nature-wave-back-don-man-look-surf-wallpaper-sunrise-ocean.jpg) center center no-repeat #000;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}
+.project {color: black}
 #map{width:100%;height:200px;margin-top:100px}
 @media (min-width:767px){.content-section{padding-top:250px}.project-section{padding:100px 0}#map{height:400px;margin-top:250px}}
 .btn{font-weight:400;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;transition:all .3s ease-in-out;border-radius:0}
 .btn-default{border:1px solid #42DCA3;color:#42DCA3;background-color:transparent}
 .btn-default:focus,.btn-default:hover{border:1px solid #42DCA3;outline:0;color:#000;background-color:#42DCA3}
+.btn-primary{border:1px solid black;color:black;background-color:transparent}
+.btn-primary:focus,.btn-primary:hover{border:1px solid white;outline:0;color:white;background-color:black}
 ul.banner-social-buttons{margin-top:0}
 @media (max-width:1199px){ul.banner-social-buttons{margin-top:15px}}
 @media (max-width:767px){ul.banner-social-buttons li{display:block;margin-bottom:20px;padding:0}ul.banner-social-buttons li:last-child{margin-bottom:0}}
