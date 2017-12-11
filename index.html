@@ -22,13 +22,21 @@
     <!-- Theme CSS -->
     <link href="css/grayscale.min.css" rel="stylesheet">
 
+    <!--particles-->
+    <script src="particles.js-master/particles.js"></script>
+
+    <!-- My CSS / JS -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="./js/index.js"></script>
+
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="/js/index.js"></script>
 
 </head>
 
@@ -89,10 +97,10 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Me</h2>
                 <img id="pic-of-me" src="http://i.imgur.com/L3q5yWa.jpg" title="source: imgur.com" class="img-responsive center-block"/>
-                <p>
+                <p id="about-me">
                   Hi! My name is Robin Kurosawa, and I am a 22 year old software developer living in Washington D.C.  I've studied a range of programming courses at BU and abroad at the University
                   of Copenhagen and built a bunch of stuff ranging from a simple web server to a multi-layered neural network to large scale data mining.  I am currently conducting AI research with
-                    a PhD student at George Washington University, work as a full stack developer on the Agnes app for students, and build a super secret new cryptocurrency to revolutionize the global
+                    a PhD student at George Washington University, working as a full stack developer on the Agnes app for students, and building a super secret new cryptocurrency to revolutionize the global
                     job market!
 
                   In my (decreasing) free time I like to play soccer, snowboard, write fiction, trade cryptocurrencies, and (obviously) code!
@@ -103,17 +111,24 @@
         </div>
     </section>
 
-    <!-- Project Section -->
-    <section id="projects" class="content-section text-center">
-        <div class="project-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2 project" opacity=".1">
-                    <h2>Projects</h2>
-                    <p>Please check out my latest (open) projects <a href="https://rkuro.github.io/projects" class="btn btn-primary btn-sm">here</a></p>
-                </div>
-            </div>
+    <div id="particles-js">
+        <div class="col-lg-8 col-lg-offset-2 project particle-section text-center" opacity=".1">
+            <h2 class="project-text">Projects</h2>
+            <p class="project-text">Please check out my latest (open) projects <a href="https://rkuro.github.io/projects" class="project-button btn btn-primary btn-sm">here</a></p>
         </div>
-    </section>
+    </div>
+    <!--<div class="project-section">-->
+        <!--<div class="container">-->
+            <!---->
+        <!--</div>-->
+    <!--</div>-->
+
+
+
+    <!-- Project Section -->
+    <!--<section id="projects" class="content-section text-center">-->
+
+    <!--</section>-->
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">

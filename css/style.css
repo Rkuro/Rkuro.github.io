@@ -1,0 +1,42 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.project-section {
+    background:url(../img/graph.jpeg) center center no-repeat #000;
+    opacity: 0.9;
+}
+
+#about {
+    padding-top:0px !important;
+}
+
+#about-me {
+    padding-top:15px;
+    color:white;
+}
+
+.particle-section {
+    position: absolute;
+    /*left: 25%;*/
+    /*width: 50%;*/
+    margin-top: 20%;
+}
+
+.project-text {
+    color:white;
+    text-align:center;
+}
+
+.project-button {
+    margin-left:5px;
+    color:white;
+    background-color:rgba(0,0,0,.3)
+}
+
+canvas{
+    background-color: #000;
+    width:100%;
+    height:1100px;
+}
