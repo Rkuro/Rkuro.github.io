@@ -1,0 +1,25 @@
+$dark_grey : #2C3532;
+$dark_green : #083231;
+$light_green :#3DAD99;
+$dark_beige : #DAAF8C;
+$beige: 	#FFD39F;
+
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+html {
+    margin:0;
+    padding:0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-width:100vw;
+    min-height:100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

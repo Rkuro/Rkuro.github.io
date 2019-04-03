@@ -1,0 +1,31 @@
+$grey : #2c3531;
+$teal: #116466;
+$dark-beige: #d9b08c;
+$light-beige: #ffcb9a;
+$light-blue: #d1e8e2;
+
+$dark_green: #19270d;
+$light-green: #25591f;
+$light-brown: #818c3c;
+$brown: #72601b;
+$dark-brown: #593a0e;
+
+
+.App {
+    //background: #1b1c1d;
+    background: $dark_green
+}
+
+.title {
+
+    text-align: center;
+    padding: 4rem 0;
+
+    .underline {
+        width: 70px;
+        height: 4px;
+        //background: #444649;
+        background:$light-green;
+        margin: auto;
+    }
+}

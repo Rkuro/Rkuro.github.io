@@ -1,0 +1,45 @@
+.projects-modal {
+
+    .slick-arrow {
+        width:auto;
+        height:auto;
+    }
+
+    .slick-arrow::before {
+        font-size:100px;
+    }
+
+    .slick-next::before {
+        content:"\203A";
+
+    }
+
+    .slick-next {
+        right:-5vw;
+    }
+
+    .slick-prev::before {
+        content:"\2039";
+
+    }
+
+    .slick-prev {
+        left:-5vw;
+    }
+    .carousel-item {
+        .carousel-img {
+            //max-height:400px;
+            width:100%;
+        }
+
+        .carousel-content {
+            padding:3vh;
+
+            .content-footer {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+}
